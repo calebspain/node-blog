@@ -6,8 +6,6 @@ const projectsController = require('../controllers/projectsController');
 
 router.get('/', pagesController.homePage);
 
-router.get('/pug', pagesController.pug);
-
 router.get('/about', pagesController.about);
 
 router.get('/projects', projectsController.index);
